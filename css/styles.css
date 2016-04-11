@@ -52,21 +52,34 @@ h4{
 	margin-bottom: 10px;
 }
 
-/* PARAGRAPH: Sets up formatting for paragraphs */
+/* PARAGRAPH */
+
+/* Setting up formatting for paragraphs */
 p{
 	font-size: 160%;
 	font-weight: normal;
 	text-align: left;
 	line-height: 1.5;
-	/*border-bottom: 2px solid black;*/
 	padding-right: 20px;
 	padding-bottom: 40px;
 	font-family: serif;
 }
 
+/* Setting up formatting for paragraphs in lists in Portfolio Page */
+p.job{
+	font-size: 100%;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1.5;
+	font-family: serif;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
 /* UNORDERED LISTS */
 
-/* Sets up formatting for unordered listed links in navigation and footer sections */
+/* Setting up formatting for unordered listed links in navigation and footer sections */
 ul.links {
 	padding-left: 0;
 	margin-bottom: 1px;
@@ -173,6 +186,7 @@ footer{
 	margin-bottom: 20px;
 	height: 325px;
 	width: 300px;
+	/*position: relative;*/
 }
 
 /* Formatting for images of webpages on Portfolio Page */
@@ -184,5 +198,5 @@ footer{
 	padding: 2px;
 	margin-left: 50px;
 	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
