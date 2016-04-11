@@ -1,0 +1,188 @@
+/* HTML: Sets up basic formatting of both the About Me and Portfolio pages */
+html {
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 100%;
+	}
+
+/* NAVIGATION: Sets up formatting for navigation bar on top of Heading 1 */
+nav {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 160%;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	margin: 0 auto;
+}
+
+/* HEADINGS: Sets up formatting for headings */
+
+h1{
+	text-align: center;
+	font-size: 300%;
+	font-weight: bolder;
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+h2{
+	text-align: left;
+	font-size: 180%;
+	font-weight: bolder;
+}
+
+h3{
+	text-align: left;
+	font-size: 165%;
+}
+
+h4{
+	text-align: left;
+	font-size: 150%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* PARAGRAPH: Sets up formatting for paragraphs */
+p{
+	font-size: 160%;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1.5;
+	/*border-bottom: 2px solid black;*/
+	padding-right: 20px;
+	padding-bottom: 40px;
+	font-family: serif;
+}
+
+/* UNORDERED LISTS */
+
+/* Sets up formatting for unordered listed links in navigation and footer sections */
+ul.links {
+	padding-left: 0;
+	margin-bottom: 1px;
+	margin-top: 50px;
+}
+
+ul.links li {
+	display: inline-block;
+	text-align: center;
+	font-family: sans-serif;
+	border-right: 1px solid black;
+	padding-right: 12px;
+	padding-left: 10px;
+}
+
+ul.links li:last-child{
+	border-right: 0;
+}
+
+/* Sets up formatting for unordered list for previous jobs or positions in portfolio page */
+
+ul.portfolio_positions{
+	list-style-type: square;
+	font-family: sans-serif;
+}
+
+/* FOOTER */
+/* Sets up formatting for footer on the bottom of the page */
+
+footer{
+	font-size: 160%;
+	font-weight: bold;
+	text-align: center;
+	border-top: 2px solid black;
+	padding-bottom: 10px;
+}
+
+/* Workaround - Sets up formatting for footer on the bottom of the portfolio page to ensure border runs across the width of the page (vs. on About Me page, image takes up some of the space and the border is shorter) */
+
+.portfolio_footer{
+	font-size: 160%;
+	font-weight: bold;
+	text-align: center;
+	border-top: 2px solid black;
+	padding-bottom: 70px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+/* DIV CLASSES FOR SECTIONS */
+
+/* Formatting general theme for both Index Page and Portfolio Page */
+.about_me{
+	margin-left: 5px;
+	margin-right: 5px;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin: 0 auto;
+}
+
+/* Formatting for bio section on Index Page */
+
+.bio{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 80px;
+	margin-bottom: 60px;
+	padding-top: 10px;
+	width: 60%;
+}
+
+/* Formatting for experience section Portfolio Page */
+.experience{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 80px;
+	margin-bottom: 60px;
+	margin-top: 10px;
+	width: 90%;
+}
+
+/* Formatting for portfolio section Portfolio Page */
+.portfolio{
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	padding-left: 10px;
+	line-height: 1.5;
+	font-size: 160%;
+	font-family: serif;
+}
+
+/* Formatting for image on Index Page */
+.photo_wrapper{
+	display: inline-block;
+	width: 25%;
+	float: right;
+	border: 1px solid black;
+	padding: 2px;
+	margin-left: 32px;
+	margin-right: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 325px;
+	width: 300px;
+}
+
+/* Formatting for images of webpages on Portfolio Page */
+.project_image_wrapper{
+	display: inline block;
+	height: 402px;
+	width: 541px;
+	border: 2px solid black;
+	padding: 2px;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
