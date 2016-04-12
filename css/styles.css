@@ -1,25 +1,21 @@
-/* HTML: Sets up basic formatting of both the About Me and Portfolio pages */
+/* HTML: Setting up basic formatting of both the About Me and Portfolio pages */
 html {
 	background-color: white;
 	font-family: sans-serif;
 	font-size: 100%;
 	}
 
-/* NAVIGATION: Sets up formatting for navigation bar on top of Heading 1 */
+/* NAVIGATION: Setting up formatting for navigation bar on top of Heading 1 */
 nav {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
 	font-size: 160%;
 	font-weight: bold;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-top: 10px;
-	margin-bottom: 2px;
 	margin: 0 auto;
 }
 
-/* HEADINGS: Sets up formatting for headings */
+/* HEADINGS: Setting up formatting for headings */
 
 h1{
 	text-align: center;
@@ -99,15 +95,37 @@ ul.links li:last-child{
 	border-right: 0;
 }
 
-/* Sets up formatting for unordered list for previous jobs or positions in portfolio page */
+/* Setting up formatting for unordered list for previous jobs or positions in portfolio page */
 
 ul.portfolio_positions{
 	list-style-type: square;
 	font-family: sans-serif;
 }
 
+
+/* Formatting Titles in Unordered Lists */
+
+/* JOB TITLE FORMATTING */
+span.job_title{
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+/* COMPANY NAME FORMATTING */
+span.company_name{
+	font-size: 80%;
+
+}
+
+/* DATE FORMATTING */
+span.date{
+	font-size: 60%;
+}
+
+
 /* FOOTER */
-/* Sets up formatting for footer on the bottom of the page */
+/* Setting up formatting for footer on the bottom of the page */
 
 footer{
 	font-size: 160%;
@@ -117,7 +135,8 @@ footer{
 	padding-bottom: 10px;
 }
 
-/* Workaround - Sets up formatting for footer on the bottom of the portfolio page to ensure border runs across the width of the page (vs. on About Me page, image takes up some of the space and the border is shorter) */
+
+/* Workaround - Setting up formatting for footer on the bottom of the portfolio page to ensure border runs across the width of the page (vs. on About Me page, image takes up some of the space and the border is shorter). ** Next time - Use <hr> tags for horizontal lines. */
 
 .portfolio_footer{
 	font-size: 160%;
@@ -186,7 +205,6 @@ footer{
 	margin-bottom: 20px;
 	height: 325px;
 	width: 300px;
-	/*position: relative;*/
 }
 
 /* Formatting for images of webpages on Portfolio Page */
